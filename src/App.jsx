@@ -1,9 +1,12 @@
-import React from 'react'
+import UseFetchHookTest from "./use-fetch/test";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      {/* useEfetch - Custom Hook */}
+      <UseFetchHookTest />
+    </div>
+  );
 }
 
-export default App
+export default App;
