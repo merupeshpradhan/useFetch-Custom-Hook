@@ -11,7 +11,7 @@ export default function UseFetchHookTest() {
       style={{
         height: "100vh",
         width: "100%",
-        display: "flex",
+        display: "flex", 
         flexDirection: "column",
         alignItems: "center",
         gap: "15px",
