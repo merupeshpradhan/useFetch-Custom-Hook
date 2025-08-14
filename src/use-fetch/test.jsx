@@ -14,7 +14,7 @@ export default function UseFetchHookTest() {
         display: "flex", 
         flexDirection: "column",
         alignItems: "center",
-        gap: "15px",
+        gap: "15px", 
       }}
     >
       <h3>Use Fetch Hook</h3>
