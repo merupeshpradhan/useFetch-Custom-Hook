@@ -9,7 +9,7 @@ export default function useFetch(url, options = {}) {
     setloding(true);
     try {
       const response = await fetch(url, { ...options });
-      if (!response) throw new Error(response.statusText);
+      if (!response.ok) throw new Error(response.statusText);
 
       const result = await response.json();
       setData(result);
